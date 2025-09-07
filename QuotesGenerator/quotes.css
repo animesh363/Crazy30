@@ -30,7 +30,7 @@ body{
 }
 .quote-box h2::after{
     content: '';
-    width: 130px;
+    width: 250px;
     height: 3px;
     border-radius: 3px;
     background: rgb(23, 124, 229);
