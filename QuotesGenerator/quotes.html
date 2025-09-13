@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="quotes.css">
 </head>
 <body>
-
     <div class="quote-box">
         
         <h2>Quotes Of The Day</h2>
@@ -26,14 +25,14 @@
     <script>
         const quote = document.getElementById("quote");
         const author = document.getElementById("author");
-        const api_url = "https://api.quotable.io/random";
+        const api_url = "https://api.quotable.io/quotes/random";
 
         async function getquote(url) {
             const response = await fetch(url);
             var data = await response.json();
             
-            quote.innerHTML = data.content;
-            author.innerHTML=data.author;
+            quote.innerHTML = data[0].content;
+            author.innerHTML=data[0].author;
         }
         getquote(api_url);
         function tweet(){
@@ -45,3 +44,5 @@
     
 </body>
 </html>
+
+<!-- Project Completed  -->
