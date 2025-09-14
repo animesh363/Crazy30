@@ -13,7 +13,7 @@ The goal is to practice core web development skills while creating exciting mini
 
 ## Projects List 🎯
 - [QuotesGenerator] Project 01  
-- [ ] Project 02  
+- [DiceRoller] Project 02  
 - [ ] Project 03  
 - [ ] Project 04  
 - [ ] Project 05  

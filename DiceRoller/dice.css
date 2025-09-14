@@ -1,4 +1,8 @@
+#body{
+    background-color: aliceblue;
+}
 #container{
+    
     font-family: Arial , sans-serif;
     text-align: center;
     font-size: 2rem;
@@ -27,4 +31,14 @@ input{
     width: 200px;
     text-align: center;
     font-weight: bold;
+}
+#diceResult{
+    margin: 30px;
+
+}
+#diceImages img{
+    margin: 25;
+    width: 150px;
+    margin: 5px;
+
 }
