@@ -31,10 +31,10 @@ The goal is to practice core web development skills while creating exciting mini
 
 
 ## Projects List 🎯
-- [QuotesGenerator] Project 01  
-- [DiceRoller] Project 02  
-- [Calculator] Project 03  
-- [ ] Project 04  
+- [QuotesGenerator] Project 01  :-html, css, js
+- [DiceRoller] Project 02  :-html, css, js
+- [Calculator] Project 03  :-html, css, js
+- [TicTacToe ] Project 04  :- using react js
 - [ ] Project 05  
 - [ ] Project 06  
 - [ ] Project 07  
